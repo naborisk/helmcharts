@@ -4,8 +4,6 @@ metadata:
   name: {{ include "neos-pdfreader.fullname" . }}
   labels:
     app: {{ include "neos-pdfreader.fullname" . }}
-  annotations:
-    argocd-image-updater.argoproj.io/image-list: ghcr.io/naborisk/neos-pdfreader-backend:main
 spec:
   selector:
     matchLabels:
