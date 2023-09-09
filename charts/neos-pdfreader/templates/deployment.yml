@@ -1,23 +1,23 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: {{ include "neos-pdf.fullname" . }}
+  name: {{ include "neos-pdfreader.fullname" . }}
   labels:
-    app: {{ include "neos-pdf.fullname" . }}
+    app: {{ include "neos-pdfreader.fullname" . }}
   annotations:
     argocd-image-updater.argoproj.io/image-list: ghcr.io/naborisk/neos-pdfreader-backend:main
 spec:
   selector:
     matchLabels:
-      app: {{ include "neos-pdf.fullname" . }}
+      app: {{ include "neos-pdfreader.fullname" . }}
   template:
     metadata:
       labels:
-        app: {{ include "neos-pdf.fullname" . }}
+        app: {{ include "neos-pdfreader.fullname" . }}
     spec:
       containers:
-        - name: {{ include "neos-pdf.fullname" . }}
-          image: ghcr.io/naborisk/neos-pdfreader-backend:main
+        - name: {{ include "neos-pdfreader.fullname" . }}
+          image: ghcr.io/naborisk/neos-pdfreaderreader-backend:main
           imagePullPolicy: Always
           ports:
             - containerPort: 3000
