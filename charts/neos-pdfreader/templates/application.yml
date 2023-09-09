@@ -1,7 +1,0 @@
-apiVersion: argoproj.io/v1alpha1
-kind: Application
-metadata:
-  name: {{ include "neos-pdfreader.fullname" . }}
-  annotations:
-    argocd-image-updater.argoproj.io/image-list: neos-pdfreader=ghcr.io/naborisk/neos-pdfreader-backend
-    argocd-image-updater.argoproj.io/neos-pdfreader.update-strategy: latest
