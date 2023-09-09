@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: {{ include "neos-pdfreader.fullname" . }}
-          image: ghcr.io/naborisk/neos-pdfreaderreader-backend:main
+          image: ghcr.io/naborisk/neos-pdfreader-backend:main
           imagePullPolicy: Always
           ports:
             - containerPort: 3000
