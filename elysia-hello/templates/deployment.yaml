@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ include "elysia-hello.fullname" . }}
+  labels:
+    app: {{ include "elysia-hello.fullname" . }}
+spec:
+  selector:
+    matchLabels:
+      app: {{ include "elysia-hello.fullname" . }}
+  template:
+    metadata:
+      labels:
+        app: {{ include "elysia-hello.fullname" . }}
+    spec:
+      containers:
+        - name: {{ include "elysia-hello.fullname" . }}
+          image: "{{ .Values.image.name }}:{{ .Values.image.tag }}"
+          imagePullPolicy: Always
+          ports:
+            - containerPort: {{ .Values.port }}
