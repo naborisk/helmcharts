@@ -1,5 +1,5 @@
 image:
-  name: ghcr.io/naborisk/neos-pdfreader-backend
+  name: ghcr.io/naborisk/elysia-hello
   pullPolicy: IfNotPresent
   tag: main
 
