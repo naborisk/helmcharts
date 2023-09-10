@@ -3,6 +3,16 @@ entries:
   elysia-hello:
   - apiVersion: v2
     appVersion: 0.0.1
+    created: "2023-09-10T13:32:10.186257238Z"
+    description: A hello world app written in elysia framework
+    digest: 135143700e15fca5cdd8bbd0e3377c7d7cbf3d521cf35bcc31b9e40fd5c8618f
+    name: elysia-hello
+    type: application
+    urls:
+    - https://github.com/naborisk/helmcharts/releases/download/elysia-hello-0.0.4/elysia-hello-0.0.4.tgz
+    version: 0.0.4
+  - apiVersion: v2
+    appVersion: 0.0.1
     created: "2023-09-10T13:30:14.90505306Z"
     description: A hello world app written in elysia framework
     digest: a5476d1cb11de0fa65efe95f4f69fb4f80edf679ce747582e2480f5d3416b74e
@@ -202,4 +212,4 @@ entries:
     urls:
     - https://github.com/naborisk/helmcharts/releases/download/neos-pdfreader-0.1.0/neos-pdfreader-0.1.0.tgz
     version: 0.1.0
-generated: "2023-09-10T13:30:14.905151361Z"
+generated: "2023-09-10T13:32:10.186319739Z"
