@@ -1,1 +1,4 @@
 port: 3000
+image:
+  name: ghcr.io/naborisk/neos-pdfreader-backend
+  tag: main
