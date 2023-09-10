@@ -1,0 +1,13 @@
+image:
+  repository: ghcr.io/naborisk/neos-pdfreader-backend
+  pullPolicy: IfNotPresent
+  tag: main
+
+serviceAccount:
+  create: true
+  annotations: {}
+  name: ""
+
+service:
+  type: LoadBalancer
+  port: 3000
