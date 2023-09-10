@@ -6,6 +6,6 @@ spec:
   selector:
     app: {{ include "elysia-hello.fullname" . }}
   ports:
-    - port: {{ .Values.port }}
+    - port: {{ .Values.service.port }}
       targetPort: 3000
-  type: LoadBalancer
+  type: {{ .Values.service.type }}
