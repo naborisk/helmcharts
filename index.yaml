@@ -3,6 +3,16 @@ entries:
   neos-pdfreader:
   - apiVersion: v2
     appVersion: 0.0.1
+    created: "2023-09-10T08:31:43.646130226Z"
+    description: Backend for pdf reader in NeosVR
+    digest: ad4a4d3d0887cd7e661285983691eb09cfd6e7cf19ea1363bdbbc94b113df67d
+    name: neos-pdfreader
+    type: application
+    urls:
+    - https://github.com/naborisk/helmcharts/releases/download/neos-pdfreader-0.1.15/neos-pdfreader-0.1.15.tgz
+    version: 0.1.15
+  - apiVersion: v2
+    appVersion: 0.0.1
     created: "2023-09-10T08:01:05.042572981Z"
     description: Backend for pdf reader in NeosVR
     digest: c1c3ee85562e84937a4e04d310963623fe03b7d0ecfcd136d0ec5912db77ea22
@@ -151,4 +161,4 @@ entries:
     urls:
     - https://github.com/naborisk/helmcharts/releases/download/neos-pdfreader-0.1.0/neos-pdfreader-0.1.0.tgz
     version: 0.1.0
-generated: "2023-09-10T08:01:05.042690183Z"
+generated: "2023-09-10T08:31:43.646234126Z"
