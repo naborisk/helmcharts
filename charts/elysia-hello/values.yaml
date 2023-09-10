@@ -4,7 +4,7 @@ image:
   tag: main
 
 application:
-  imageList: ghcr.io/naborisk/elysia-hello
+  imageList: ghcr.io/naborisk/elysia-hello:main
 
 
 serviceAccount:
