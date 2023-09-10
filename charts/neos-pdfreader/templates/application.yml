@@ -3,9 +3,3 @@ kind: Application
 metadata:
   name: {{ include "neos-pdfreader.fullname" . }}
   namespace: argocd
-spec:
-  project: default
-  source:
-    chart: {{ include "neos-pdfreader.fullname" . }}
-    helm:
-      releaseName: {{ include "neos-pdfreader.fullname" . }}
