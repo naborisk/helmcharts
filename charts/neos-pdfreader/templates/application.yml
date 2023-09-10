@@ -4,5 +4,5 @@ metadata:
   name: {{ include "neos-pdfreader.fullname" . }}
   namespace: argocd
   annotations:
-    argocd-image-updater.argoproj.io/image-list: neos-pdf=ghcr.io/naborisk/neos-pdfreader-backend
+    argocd-image-updater.argoproj.io/image-list: neos-pdf=ghcr.io/naborisk/neos-pdfreader-backend:main
     argocd-image-updater.argoproj.io/neos-pdf.update-strategy: latest
