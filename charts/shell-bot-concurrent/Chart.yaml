@@ -1,6 +1,6 @@
 apiVersion: v2
 name: shell-bot-concurrent
-description: A Helm chart for Kubernetes
+description: A WIP bot for concurrent social networking platform
 type: application
-version: 0.0.1
+version: 0.0.2
 appVersion: "0.0.1"

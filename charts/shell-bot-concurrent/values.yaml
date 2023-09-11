@@ -17,7 +17,6 @@ service:
   port: 3000
 
 env:
-  CCID: ''
   SECRET_KEY: ''
   CONCURRENT_HOST: ''
   POST_STREAM: ''
