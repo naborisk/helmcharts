@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ include "shell-bot-concurrent.fullname" . }}
+  labels:
+    app: {{ include "shell-bot-concurrent.fullname" . }}
+spec:
+  selector:
+    matchLabels:
+      app: {{ include "shell-bot-concurrent.fullname" . }}
+  template:
+    metadata:
+      labels:
+        app: {{ include "shell-bot-concurrent.fullname" . }}
+    spec:
+      containers:
+        - name: {{ include "shell-bot-concurrent.fullname" . }}
+          image: "{{ .Values.image.name }}:{{ .Values.image.tag }}"
+          imagePullPolicy: {{ .Values.service.pullPolicy }}
+          ports:
+            - containerPort: {{ .Values.service.port }}
+          env:
+            - name: CCID
+              value: {{ .Values.env.CCID }}
+            - name: SECRET_KEY
+              value: {{ .Values.env.SECRET_KEY }}
+            - name: CONCURRENT_HOST
+              value: {{ .Values.env.CONCURRENT_HOST }}
+            - name: POST_STREAM
+              value: {{ .Values.env.POST_STREAM }}
