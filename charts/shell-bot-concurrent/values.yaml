@@ -7,15 +7,6 @@ application:
   imageList: ghcr.io/naborisk/shell-bot-concurrent:main
   alias: shell-bot-concurrent
 
-serviceAccount:
-  create: true
-  annotations: {}
-  name: ""
-
-service:
-  type: LoadBalancer
-  port: 3000
-
 env:
   SECRET_KEY: ''
   CONCURRENT_HOST: ''
