@@ -18,9 +18,13 @@ spec:
           image: "{{ .Values.image.name }}:{{ .Values.image.tag }}"
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           env:
+            - name: CCID
+              value: {{ .Values.env.CCID }}
             - name: SECRET_KEY
               value: {{ .Values.env.SECRET_KEY }}
             - name: CONCURRENT_HOST
               value: {{ .Values.env.CONCURRENT_HOST }}
             - name: POST_STREAM
               value: {{ .Values.env.POST_STREAM }}
+            - name: COMMAND_PREFIX
+              value: {{ .Values.env.COMMAND_PREFIX }}

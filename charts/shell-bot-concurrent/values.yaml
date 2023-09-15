@@ -8,6 +8,8 @@ application:
   alias: shell-bot-concurrent
 
 env:
+  CCID: ''
   SECRET_KEY: ''
   CONCURRENT_HOST: ''
   POST_STREAM: ''
+  COMMAND_PREFIX: '/sh'
