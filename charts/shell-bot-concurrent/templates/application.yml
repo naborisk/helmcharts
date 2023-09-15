@@ -4,5 +4,5 @@ metadata:
   name: {{ include "shell-bot-concurrent.fullname" . }}
   namespace: argocd
   annotations:
-    argocd-image-updater.argoproj.io/image-list: {{ .Values.application.imageList }}
+    argocd-image-updater.argoproj.io/image-list: shell-bot-concurrent={{ .Values.application.imageList }}
     argocd-image-updater.argoproj.io/shell-bot-concurrent.update-strategy: digest
