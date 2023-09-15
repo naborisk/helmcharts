@@ -16,7 +16,7 @@ spec:
       containers:
         - name: {{ include "shell-bot-concurrent.fullname" . }}
           image: "{{ .Values.image.name }}:{{ .Values.image.tag }}"
-          imagePullPolicy: {{ .Values.service.pullPolicy }}
+          imagePullPolicy: {{ .Values.image.pullPolicy }}
           env:
             - name: SECRET_KEY
               value: {{ .Values.env.SECRET_KEY }}
