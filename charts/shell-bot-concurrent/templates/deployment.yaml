@@ -28,3 +28,10 @@ spec:
               value: {{ .Values.env.POST_STREAM }}
             - name: COMMAND_PREFIX
               value: {{ .Values.env.COMMAND_PREFIX }}
+          livenessProbe:
+            exec:
+              command:
+                - rm
+                - /tmp/pong
+              initialDelaySeconds: {{ .Values.livenessProbe.initialDelaySeconds }}
+              periodSeconds: {{ .Values.livenessProbe.periodSeconds }}
