@@ -33,5 +33,5 @@ spec:
               command:
                 - rm
                 - /tmp/pong
-              initialDelaySeconds: {{ .Values.livenessProbe.initialDelaySeconds }}
-              periodSeconds: {{ .Values.livenessProbe.periodSeconds }}
+            initialDelaySeconds: {{ .Values.livenessProbe.initialDelaySeconds }}
+            periodSeconds: {{ .Values.livenessProbe.periodSeconds }}
