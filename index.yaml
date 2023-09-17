@@ -265,6 +265,16 @@ entries:
   shell-bot-concurrent:
   - apiVersion: v2
     appVersion: 0.0.1
+    created: "2023-09-17T09:51:18.175351498Z"
+    description: A WIP bot for concurrent social networking platform
+    digest: 3c448c5795e76e2478bbc7f631ce7c8cb9cce6014ea9ab2ef6b3a36060d0409e
+    name: shell-bot-concurrent
+    type: application
+    urls:
+    - https://github.com/naborisk/helmcharts/releases/download/shell-bot-concurrent-0.0.8/shell-bot-concurrent-0.0.8.tgz
+    version: 0.0.8
+  - apiVersion: v2
+    appVersion: 0.0.1
     created: "2023-09-15T12:15:58.364345212Z"
     description: A WIP bot for concurrent social networking platform
     digest: a9c87abdc595d546b4dfea0cf9a47c9792a6fa1d8e3e6cd47a7d074cea3147d9
@@ -333,4 +343,4 @@ entries:
     urls:
     - https://github.com/naborisk/helmcharts/releases/download/shell-bot-concurrent-0.0.1/shell-bot-concurrent-0.0.1.tgz
     version: 0.0.1
-generated: "2023-09-15T12:15:58.36449752Z"
+generated: "2023-09-17T09:51:18.175727997Z"
