@@ -3,6 +3,16 @@ entries:
   elysia-hello:
   - apiVersion: v2
     appVersion: 0.0.1
+    created: "2023-09-28T13:13:06.093973172Z"
+    description: A hello world app written in elysia framework
+    digest: eaf913cb9220ae1f23dd1e06a8c666bbdbc13cabf053e54805b8103251897667
+    name: elysia-hello
+    type: application
+    urls:
+    - https://github.com/naborisk/helmcharts/releases/download/elysia-hello-0.0.10/elysia-hello-0.0.10.tgz
+    version: 0.0.10
+  - apiVersion: v2
+    appVersion: 0.0.1
     created: "2023-09-10T15:28:34.458682188Z"
     description: A hello world app written in elysia framework
     digest: 98f35839e869d7e206fb4883cc98361765e793cbd21571303fa179d0acc907ab
@@ -92,6 +102,16 @@ entries:
     - https://github.com/naborisk/helmcharts/releases/download/elysia-hello-0.0.1/elysia-hello-0.0.1.tgz
     version: 0.0.1
   neos-pdfreader:
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2023-09-28T13:13:06.289499801Z"
+    description: Backend for pdf reader in NeosVR
+    digest: 4cf0b954c9f7c65f81d0adbaa6a8d35e8ce25e20e0d05ff097ef928a5671dc6f
+    name: neos-pdfreader
+    type: application
+    urls:
+    - https://github.com/naborisk/helmcharts/releases/download/neos-pdfreader-0.1.17/neos-pdfreader-0.1.17.tgz
+    version: 0.1.17
   - apiVersion: v2
     appVersion: 0.0.1
     created: "2023-09-10T08:51:10.81831817Z"
@@ -265,6 +285,16 @@ entries:
   shell-bot-concurrent:
   - apiVersion: v2
     appVersion: 0.0.1
+    created: "2023-09-28T13:13:06.540443426Z"
+    description: A WIP bot for concurrent social networking platform
+    digest: 47f100c41cc67d053480d1ea3c6072b371b503f2c5d9af521034a0d171b31978
+    name: shell-bot-concurrent
+    type: application
+    urls:
+    - https://github.com/naborisk/helmcharts/releases/download/shell-bot-concurrent-0.0.10/shell-bot-concurrent-0.0.10.tgz
+    version: 0.0.10
+  - apiVersion: v2
+    appVersion: 0.0.1
     created: "2023-09-17T10:07:29.290582865Z"
     description: A WIP bot for concurrent social networking platform
     digest: ba957a947b7ade46c1738eede9fbaf0cda0624b19629488bb10e9d5922521841
@@ -353,4 +383,4 @@ entries:
     urls:
     - https://github.com/naborisk/helmcharts/releases/download/shell-bot-concurrent-0.0.1/shell-bot-concurrent-0.0.1.tgz
     version: 0.0.1
-generated: "2023-09-17T10:07:29.291065971Z"
+generated: "2023-09-28T13:13:06.540735525Z"
