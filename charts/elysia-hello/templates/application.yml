@@ -2,7 +2,6 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: {{ include "elysia-hello.fullname" . }}
-  namespace: argocd
   annotations:
     argocd-image-updater.argoproj.io/image-list: {{ .Values.application.imageList }}
     argocd-image-updater.argoproj.io/elysia-hello.update-strategy: digest
