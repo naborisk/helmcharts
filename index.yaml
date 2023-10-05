@@ -282,6 +282,17 @@ entries:
     urls:
     - https://github.com/naborisk/helmcharts/releases/download/neos-pdfreader-0.1.0/neos-pdfreader-0.1.0.tgz
     version: 0.1.0
+  resonite-pdfreader:
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2023-10-05T07:42:23.987660176Z"
+    description: Backend for pdf reader in the VR platform Resonite
+    digest: e797371500a9c8130e7f312c89e5c0c1258ea7816e56b3241d1f4c6e7826355d
+    name: resonite-pdfreader
+    type: application
+    urls:
+    - https://github.com/naborisk/helmcharts/releases/download/resonite-pdfreader-0.1.18/resonite-pdfreader-0.1.18.tgz
+    version: 0.1.18
   shell-bot-concurrent:
   - apiVersion: v2
     appVersion: 0.0.1
@@ -383,4 +394,4 @@ entries:
     urls:
     - https://github.com/naborisk/helmcharts/releases/download/shell-bot-concurrent-0.0.1/shell-bot-concurrent-0.0.1.tgz
     version: 0.0.1
-generated: "2023-09-28T13:13:06.540735525Z"
+generated: "2023-10-05T07:42:23.987753976Z"
