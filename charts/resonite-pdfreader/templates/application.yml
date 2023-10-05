@@ -1,0 +1,8 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: {{ include "resonite-pdfreader.fullname" . }}
+  namespace: argocd
+  annotations:
+    argocd-image-updater.argoproj.io/image-list: resonite-pdf=ghcr.io/naborisk/resonite-pdfreader-backend:main
+    argocd-image-updater.argoproj.io/resonite-pdf.update-strategy: digest

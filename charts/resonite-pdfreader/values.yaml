@@ -1,0 +1,4 @@
+port: 3000
+image:
+  name: ghcr.io/naborisk/resonite-pdfreader-backend
+  tag: main

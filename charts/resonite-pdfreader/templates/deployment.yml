@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ include "resonite-pdfreader.fullname" . }}
+  labels:
+    app: {{ include "resonite-pdfreader.fullname" . }}
+spec:
+  selector:
+    matchLabels:
+      app: {{ include "resonite-pdfreader.fullname" . }}
+  template:
+    metadata:
+      labels:
+        app: {{ include "resonite-pdfreader.fullname" . }}
+    spec:
+      containers:
+        - name: {{ include "resonite-pdfreader.fullname" . }}
+          image: "{{ .Values.image.name }}:{{ .Values.image.tag }}"
+          imagePullPolicy: Always
+          ports:
+            - containerPort: {{ .Values.port }}
