@@ -5,7 +5,7 @@ metadata:
   annotations:
     ## Here we are telling that any request coming to this ingress will
     ## reach the Service without the Prefix
-    nginx.ingress.kubernetes.io/rewrite-target: /
+    nginx.ingress.kubernetes.io/rewrite-target: /$2
 spec:
   ## Name of the IngressClass we are going to use
   ingressClassName: nginx
