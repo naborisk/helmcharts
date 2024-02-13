@@ -1,0 +1,9 @@
+frontend:
+  port: 3000
+  image:
+    name: ghcr.io/naborisk/fullstack-todo-frontend
+    tag: main
+backend:
+  image:
+    name: ghcr.io/naborisk/fullstack-todo-backend
+    tag: main
