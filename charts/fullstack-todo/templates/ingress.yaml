@@ -12,7 +12,7 @@ spec:
   rules:
     ## Here we apply the routing rules for our initial ingress version
     - host: { { .Values.host } }
-    - http:
+      http:
         paths:
           ## Every request coming into our Cluster IP will be redirected internally
           ## to the Service with the name "backend" on port 5678 and because of the
