@@ -104,6 +104,16 @@ entries:
   fullstack-todo:
   - apiVersion: v2
     appVersion: 0.0.1
+    created: "2024-02-13T10:01:54.971051609Z"
+    description: Simple to-do application
+    digest: a3ae192bc15c15a93d2da7d0f2e3f57ba5511571d8912e7fe487f98efb768b4b
+    name: fullstack-todo
+    type: application
+    urls:
+    - https://github.com/naborisk/helmcharts/releases/download/fullstack-todo-0.0.8/fullstack-todo-0.0.8.tgz
+    version: 0.0.8
+  - apiVersion: v2
+    appVersion: 0.0.1
     created: "2024-02-13T09:56:16.948468818Z"
     description: Simple to-do application
     digest: 937875722fccb783ff2786581f789228dc2defe7a52936b111c889ef38dca1e7
@@ -465,4 +475,4 @@ entries:
     urls:
     - https://github.com/naborisk/helmcharts/releases/download/shell-bot-concurrent-0.0.1/shell-bot-concurrent-0.0.1.tgz
     version: 0.0.1
-generated: "2024-02-13T09:56:16.948595095Z"
+generated: "2024-02-13T10:01:54.971163428Z"
