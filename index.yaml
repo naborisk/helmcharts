@@ -101,6 +101,17 @@ entries:
     urls:
     - https://github.com/naborisk/helmcharts/releases/download/elysia-hello-0.0.1/elysia-hello-0.0.1.tgz
     version: 0.0.1
+  fullstack-todo:
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2024-02-13T08:39:02.485548017Z"
+    description: Simple to-do application
+    digest: 86d35737cc48227e9872979becc2154afeb0de5e6bfa62179ed36a454bfbee57
+    name: fullstack-todo
+    type: application
+    urls:
+    - https://github.com/naborisk/helmcharts/releases/download/fullstack-todo-0.0.1/fullstack-todo-0.0.1.tgz
+    version: 0.0.1
   neos-pdfreader:
   - apiVersion: v2
     appVersion: 0.0.1
@@ -394,4 +405,4 @@ entries:
     urls:
     - https://github.com/naborisk/helmcharts/releases/download/shell-bot-concurrent-0.0.1/shell-bot-concurrent-0.0.1.tgz
     version: 0.0.1
-generated: "2023-10-05T07:42:23.987753976Z"
+generated: "2024-02-13T08:39:02.485627705Z"
