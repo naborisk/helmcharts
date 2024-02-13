@@ -20,7 +20,7 @@ spec:
           ## nginx.ingress.kubernetes.io/rewrite-target defined above, it will
           ## automatically remove the "/backend" from the path.
           ## ie. 51.158.57.177/backend -> (backend service internal address):5678/
-          - path: /backend/(.*)
+          - path: /api/(.*)
             pathType: Prefix
             backend:
               service:
