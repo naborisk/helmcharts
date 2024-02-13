@@ -18,7 +18,7 @@ spec:
         kompose.cmd: kompose convert
         kompose.version: 1.32.0 (HEAD)
       labels:
-        io.kompose.network/fullstack-todo-default: "true"
+        io.kompose.network/fullstack-todo-default: 'true'
         io.kompose.service: backend
     spec:
       containers:
@@ -26,8 +26,8 @@ spec:
             - name: DB_HOST
               value: db
             - name: PORT
-              value: "3001"
-          image: backend
+              value: '3001'
+          image: '{{ .Values.backend.image.name }}:{{ .Values.backend.image.tag }}'
           name: backend
           ports:
             - containerPort: 3001

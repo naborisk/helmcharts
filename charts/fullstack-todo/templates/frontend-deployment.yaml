@@ -18,11 +18,11 @@ spec:
         kompose.cmd: kompose convert
         kompose.version: 1.32.0 (HEAD)
       labels:
-        io.kompose.network/fullstack-todo-default: "true"
+        io.kompose.network/fullstack-todo-default: 'true'
         io.kompose.service: frontend
     spec:
       containers:
-        - image: frontend
+        - image: '{{ .Values.frontend.image.name }}:{{ .Values.frontend.image.tag }}'
           name: frontend
           ports:
             - containerPort: 3000
