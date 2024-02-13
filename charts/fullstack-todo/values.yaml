@@ -1,3 +1,4 @@
+host: fullstack-todo.k8s.nbr.int
 frontend:
   port: 3000
   image:
