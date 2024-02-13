@@ -25,6 +25,8 @@ spec:
         - env:
             - name: DB_HOST
               value: db
+            - name: DB_PORT
+              value: 5432
             - name: PORT
               value: '3001'
           image: '{{ .Values.backend.image.name }}:{{ .Values.backend.image.tag }}'
