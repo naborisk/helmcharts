@@ -23,6 +23,7 @@ spec:
     spec:
       containers:
         - image: '{{ .Values.frontend.image.name }}:{{ .Values.frontend.image.tag }}'
+          imagePullPolicy: Always
           name: frontend
           ports:
             - containerPort: 3000

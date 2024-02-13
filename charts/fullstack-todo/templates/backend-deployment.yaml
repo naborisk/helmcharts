@@ -30,6 +30,7 @@ spec:
             - name: PORT
               value: '3001'
           image: '{{ .Values.backend.image.name }}:{{ .Values.backend.image.tag }}'
+          imagePullPolicy: Always
           name: backend
           ports:
             - containerPort: 3001
