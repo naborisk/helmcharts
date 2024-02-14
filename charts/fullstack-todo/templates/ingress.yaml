@@ -39,5 +39,5 @@ spec:
                 name: adminer
                 port:
                   number: 8080
-            path: /adminer/(.*)
+            path: /adminer/()(.*)
             pathType: Prefix
