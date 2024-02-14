@@ -27,7 +27,7 @@ spec:
                 name: backend
                 port:
                   number: 3001
-          - path: /()(.*)
+          - path: (/|$)(.*)
             pathType: Prefix
             backend:
               service:
@@ -39,5 +39,5 @@ spec:
                 name: adminer
                 port:
                   number: 8080
-            path: /adminer/()(.*)
+            path: /adminer(/|$)(.*)
             pathType: Prefix
