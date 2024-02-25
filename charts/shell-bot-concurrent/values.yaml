@@ -13,7 +13,6 @@ env:
   CONCURRENT_HOST: ''
   POST_STREAM: ''
   COMMAND_PREFIX: '/sh'
-
-livenessProbe:
-  initialDelaySeconds: 6
-  periodSeconds: 30
+# livenessProbe:
+#   initialDelaySeconds: 6
+#   periodSeconds: 30

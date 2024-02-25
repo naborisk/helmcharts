@@ -2,5 +2,5 @@ apiVersion: v2
 name: shell-bot-concurrent
 description: A WIP bot for concurrent social networking platform
 type: application
-version: 0.0.10
-appVersion: "0.0.1"
+version: 0.1.0
+appVersion: '0.1.0'
